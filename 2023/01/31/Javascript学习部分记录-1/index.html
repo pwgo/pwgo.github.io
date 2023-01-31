@@ -20,20 +20,21 @@
     var CONFIG = {"hostname":"pwgo.github.io","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="15">
+  <meta name="description" content="Javascript 数据类型 Primitive Data Types 值类型（基本类型）  number 数字 0, 1, -1, 3.14159,…,NaN  string 字符串  index 超出范围返回&#x3D;&gt;undefined   boolean 布尔  undefined 未定义 12let x;console.log(x); &#x2F;&#x2F;undefined  null 空 1">
 <meta property="og:type" content="article">
-<meta property="og:title" content="QuitSmoking-Day9">
-<meta property="og:url" content="http://pwgo.github.io/2023/01/28/Day9/index.html">
+<meta property="og:title" content="Javascript学习部分记录-1">
+<meta property="og:url" content="http://pwgo.github.io/2023/01/31/Javascript%E5%AD%A6%E4%B9%A0%E9%83%A8%E5%88%86%E8%AE%B0%E5%BD%95-1/index.html">
 <meta property="og:site_name" content="Vgo&#39;s blog">
-<meta property="og:description" content="15">
+<meta property="og:description" content="Javascript 数据类型 Primitive Data Types 值类型（基本类型）  number 数字 0, 1, -1, 3.14159,…,NaN  string 字符串  index 超出范围返回&#x3D;&gt;undefined   boolean 布尔  undefined 未定义 12let x;console.log(x); &#x2F;&#x2F;undefined  null 空 1">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-01-28T13:15:59.000Z">
-<meta property="article:modified_time" content="2023-01-28T13:16:33.346Z">
+<meta property="article:published_time" content="2023-01-31T11:42:32.000Z">
+<meta property="article:modified_time" content="2023-01-31T13:10:28.215Z">
 <meta property="article:author" content="pwg">
-<meta property="article:tag" content="戒烟">
+<meta property="article:tag" content="前端">
+<meta property="article:tag" content="Javascript">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://pwgo.github.io/2023/01/28/Day9/">
+<link rel="canonical" href="http://pwgo.github.io/2023/01/31/Javascript%E5%AD%A6%E4%B9%A0%E9%83%A8%E5%88%86%E8%AE%B0%E5%BD%95-1/">
 
 
 <script id="page-configurations">
@@ -46,7 +47,7 @@
   };
 </script>
 
-  <title>QuitSmoking-Day9 | Vgo's blog</title>
+  <title>Javascript学习部分记录-1 | Vgo's blog</title>
   
 
 
@@ -167,7 +168,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://pwgo.github.io/2023/01/28/Day9/">
+    <link itemprop="mainEntityOfPage" href="http://pwgo.github.io/2023/01/31/Javascript%E5%AD%A6%E4%B9%A0%E9%83%A8%E5%88%86%E8%AE%B0%E5%BD%95-1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -180,7 +181,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          QuitSmoking-Day9
+          Javascript学习部分记录-1
         </h1>
 
         <div class="post-meta">
@@ -191,7 +192,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2023-01-28 21:15:59 / 修改时间：21:16:33" itemprop="dateCreated datePublished" datetime="2023-01-28T21:15:59+08:00">2023-01-28</time>
+              <time title="创建时间：2023-01-31 19:42:32 / 修改时间：21:10:28" itemprop="dateCreated datePublished" datetime="2023-01-31T19:42:32+08:00">2023-01-31</time>
             </span>
 
           
@@ -205,7 +206,40 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>15</p>
+        <h1 id="Javascript-数据类型"><a href="#Javascript-数据类型" class="headerlink" title="Javascript 数据类型"></a>Javascript 数据类型</h1><ul>
+<li><p>Primitive Data Types 值类型（基本类型）</p>
+<ul>
+<li><p>number 数字</p>
+<p>0, 1, -1, 3.14159,…,NaN</p>
+</li>
+<li><p>string 字符串</p>
+<ul>
+<li>index 超出范围返回&#x3D;&gt;undefined</li>
+</ul>
+</li>
+<li><p>boolean 布尔</p>
+</li>
+<li><p>undefined 未定义</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> x;</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(x); <span class="comment">//undefined</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>null 空</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> y = <span class="literal">null</span>;</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(y); <span class="comment">//null</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>symbol</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> z = <span class="title class_">Symbol</span>();</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(z); <span class="comment">//Symbol()</span></span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li><p>引用数据类型（对象类型）</p>
+</li>
+</ul>
+<h1 id="Truthy-and-Falsy-Values-in-Boolean-Context"><a href="#Truthy-and-Falsy-Values-in-Boolean-Context" class="headerlink" title="Truthy and Falsy Values in Boolean Context"></a>Truthy and Falsy Values in Boolean Context</h1><ul>
+<li>false</li>
+<li>0</li>
+<li>“”</li>
+<li>null</li>
+<li>undefined</li>
+<li>NaN</li>
+</ul>
 
     </div>
 
@@ -215,7 +249,8 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/%E6%88%92%E7%83%9F/" rel="tag"># 戒烟</a>
+              <a href="/tags/%E5%89%8D%E7%AB%AF/" rel="tag"># 前端</a>
+              <a href="/tags/Javascript/" rel="tag"># Javascript</a>
           </div>
 
         
@@ -224,12 +259,12 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2023/01/27/Day8/" rel="prev" title="QuitSmoking-Day8">
-      <i class="fa fa-chevron-left"></i> QuitSmoking-Day8
+    <a href="/2023/01/31/Day11/" rel="prev" title="QuitSmoking-Day11">
+      <i class="fa fa-chevron-left"></i> QuitSmoking-Day11
     </a></div>
       <div class="post-nav-item">
-    <a href="/2023/01/29/Day10/" rel="next" title="QuitSmoking-Day10">
-      QuitSmoking-Day10 <i class="fa fa-chevron-right"></i>
+    <a href="/2023/01/31/Day12/" rel="next" title="Day12">
+      Day12 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -289,6 +324,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Javascript-%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="nav-number">1.</span> <span class="nav-text">Javascript 数据类型</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Truthy-and-Falsy-Values-in-Boolean-Context"><span class="nav-number">2.</span> <span class="nav-text">Truthy and Falsy Values in Boolean Context</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
